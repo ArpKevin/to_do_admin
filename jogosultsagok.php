@@ -32,13 +32,24 @@ th, td {
                 <form action="felvitelform.php" style="margin-left: auto;">
                     <button>Új hozzáadása</button>
                 </form>
-                
                 <table>
                     <tr>
                         <th>Azonosító</th>
                         <th>Szint</th>
                         <th>Műveletek</th>
                     </tr>
+                    <?php
+                        $szint = $_POST['jogosultsagi_szint'];
+                        if(isset($szint)){
+
+                            echo "<tr>
+                                <td>1</td>
+                                <td>" . $szint . "</td>
+                                <td>asd</td>
+                            </tr>";
+                        }
+                    ?>
+
                 </table>
             </div>
         </div>
