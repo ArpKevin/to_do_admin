@@ -29,7 +29,10 @@ th, td {
         <div class="col-9">
             <h1 style="text-align: center;">Jogosultságok</h1>
             <div class="panel" style="display: flex; flex-direction: column">
-                <button style="margin-left: auto;">Új hozzáadása</button>
+                <form action="felvitelform.php" style="margin-left: auto;">
+                    <button>Új hozzáadása</button>
+                </form>
+                
                 <table>
                     <tr>
                         <th>Azonosító</th>
