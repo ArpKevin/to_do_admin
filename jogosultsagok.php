@@ -39,9 +39,9 @@ th, td {
                         <th>Műveletek</th>
                     </tr>
                     <?php
-                        $szint = $_POST['jogosultsagi_szint'];
-                        if(isset($szint)){
-
+                        
+                        if(isset($_POST['jogosultsagi_szint'])){
+                            $szint = $_POST['jogosultsagi_szint'];
                             echo "<tr>
                                 <td>1</td>
                                 <td>" . $szint . "</td>
